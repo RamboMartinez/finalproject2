@@ -1,0 +1,35 @@
+body {
+    background-image: url(../images/bleachimg/backgroundimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    color: orange;
+}
+
+header {
+    color: orange;
+}
+
+header img {
+    max-width: 125px;
+}
+
+main div iframe {
+    border: 5px solid black;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+
+    .videowrapper{
+        max-width: auto;
+        height: auto;
+    }
+
+    body {
+        padding: 10px;
+    }
+}

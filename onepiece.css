@@ -1,0 +1,39 @@
+header img {
+    max-width: 130px;
+}
+
+body {
+    background-image: url(../images/onepieceimg/onepiecebackgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    color: black;
+}
+
+#zoro {
+    color: darkgreen;
+}
+
+#nami {
+    color: aquamarine;
+}
+
+#usopp {
+    color: brown;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+
+    .videowrapper {
+        max-width: auto;
+        height: auto;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
